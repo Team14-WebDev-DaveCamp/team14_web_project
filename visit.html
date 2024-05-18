@@ -1,22 +1,130 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<h1>Hello World</h1>
-<h2>This is the index.html page</h2>
-<ul>
-    <li>
-        <a href="attractions.html">attractions page</a>
-    </li>
-    <li>
-        <a href="visit.html">index page</a>
-    </li>
-</ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="visit.html">Visit</a>
+            </nav>
+        </header>
+        <h1>Visiting</h1>
+        <section class="ticket-prices">
+            <h2>Ticket Prices</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ticket Type</th>
+                        <th scope="col">Age Range</th>
+                        <th scope="col">Ticket Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Seniors</th>
+                        <td>65+</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Adults</th>
+                        <td>18 - 64</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Children</th>
+                        <td>< 18</td>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+                <caption>Prices are seasonal and subject to change.</caption>
+            </table>
+        </section>
+        <section class="hours-section">
+            <h2>Park Hours</h2>
+            <ul>
+                <li>Monday: 12:00AM - 11:59PM</li>
+                <li>Tuesday: 12:00AM - 11:59PM</li>
+                <li>Wednesday: 12:00AM - 11:59PM</li>
+                <li>Thursday: 12:00AM - 11:59PM</li>
+                <li>Friday: 12:00AM - 11:59PM</li>
+                <li>Saturday: 12:00AM - 11:59PM</li>
+                <li>Sunday: 12:00AM - 11:59PM</li>
+            </ul>
+            <p>Park open 365 days a year</p>
+            <p>Park open on all major Holidays</p>
+            <p>Park exempt from closure during National Emergencies</p>
+        </section>
+        <section class="park-directions">
+            <h2>Directions to Park</h2>
+            <p>Park is accessible from every major highway and is near both the airport and the port.</p>
+        </section>
+        <section class="park-map">
+            <h2>Map of Park</h2>
+            <img src="assets/images/park_map.png" alt="A photo of a person holding open an illustrated park map">
+            <p>Park maps are available for order from our online store for $20</p>
+        </section>
+        <section class="contact-section">
+            <h2>Contact</h2>
+            <ul>
+                <li>Phone: <a href="tel:555-555-5555">555-555-5555</a></li>
+                <li>Email: <a href="mailto:starstuffpark@outer.space">starstuffpark@outer.space</a></li>
+                <li>Class Action Email: <a href="mailto:yousignedthewaiverbybuyingtickets@outer.space">yousignedthewaiverbybuyingtickets@outer.space</a></li>
+            </ul>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <h4>Address</h4>
+                <address>
+                    123 Main Street<br/>
+                    Principality of Sealand<br/>
+                    North Sea, Earth
+                </address>
+            </div>
+            <div class="footer-content">
+                <h4>Social Media</h4>
+                <div class="social-media">
+                    <a href="#">Facebook</a><br/>
+                    <a href="#">Instagram</a><br/>
+                    <a href="#">Friendster</a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h4>Contact</h4>
+                <div class="contact">
+                    <ul>
+                        <li>Phone: <a href="tel:555-555-5555">555-555-5555</a></li>
+                        <li>Email: <a href="mailto:starstuffpark@outer.space">starstuffpark@outer.space</a></li>
+                        <li>Class Action Email: <a href="mailto:yousignedthewaiverbybuyingtickets@outer.space">yousignedthewaiverbybuyingtickets@outer.space</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h4>Hours</h4>
+                <div class="hours">
+                    <ul>
+                        <li>Monday: 12:00AM - 11:59PM</li>
+                        <li>Tuesday: 12:00AM - 11:59PM</li>
+                        <li>Wednesday: 12:00AM - 11:59PM</li>
+                        <li>Thursday: 12:00AM - 11:59PM</li>
+                        <li>Friday: 12:00AM - 11:59PM</li>
+                        <li>Saturday: 12:00AM - 11:59PM</li>
+                        <li>Sunday: 12:00AM - 11:59PM</li>
+                    </ul>
+                    More visting information on our <a href="visit.html">visit us</a> page.
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="Copyright">
+                    <p><em>Copyright MegaCorp Capital 2024</em></p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
