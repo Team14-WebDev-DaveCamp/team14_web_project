@@ -1,71 +1,79 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Starstuff Park | Attractions</title>
     </head>
     <body>
         <header>
             <nav class="topnav">
-                <a class="active" href="index.html">Home</a>
-                <a href="attractions.html">Attractions</a>
-                <a href="visit.html">Visit</a>
+                <ul>
+                    <!--         Link font awesome icon as svg           -->
+                    <li><a href="index.html"><svg id="topnav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M156.6 384.9L125.7 354c-8.5-8.5-11.5-20.8-7.7-32.2c3-8.9 7-20.5 11.8-33.8L24 288c-8.6 0-16.6-4.6-20.9-12.1s-4.2-16.7 .2-24.1l52.5-88.5c13-21.9 36.5-35.3 61.9-35.3l82.3 0c2.4-4 4.8-7.7 7.2-11.3C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7c-3.5 2.4-7.3 4.8-11.3 7.2v82.3c0 25.4-13.4 49-35.3 61.9l-88.5 52.5c-7.4 4.4-16.6 4.5-24.1 .2s-12.1-12.2-12.1-20.9V380.8c-14.1 4.9-26.4 8.9-35.7 11.9c-11.2 3.6-23.4 .5-31.8-7.8zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg></a></li>
+                    <li><a class="topnav-text" href="index.html">🌍&nbsp; Home</a></li>
+                    <li><a class="topnav-text" href="attractions.html">🎢&nbsp; Attractions</a></li>
+                    <li><a class="topnav-text" href="visit.html">🎟&nbsp; Visit</a></li>
+                </ul>
             </nav>
         </header>
-        <h1>Attractions</h1>
-        <div class="attractions-gallery">
-            <div class="attraction-card">
-                <h2>The Vomit Comet™</h2>
-                <img src="assets/images/ride_images/01_vomit_comet.png" width="500" height="500" alt="A photo of a drop ride with flashing lights at an amusement park at night">
-                <p>Free barf bags available!</p>
-            </div>
-            <div class="attraction-card">
-                <h2>Centrifuge Coaster™</h2>
-                <img src="assets/images/ride_images/02_roller_coaster.png" width="500" height="500" alt="A photo of a roller coaster">
-                <p>Pull 6 Gs in our signature roller coaster!</p>
-            </div>
-            <div class="attraction-card">
-                <h2>Aerotrim Device™</h2>
-                <img src="assets/images/ride_images/03_aerotrim.png" width="500" height="500" alt="A computer rendered image of a centrifuge-like object">
-                <p>Currently closed pending legal action</p>
-            </div>
-            <div class="attraction-card">
-                <h2>The Black Hole™</h2>
-                <img src="assets/images/ride_images/04_black_hole.png" width="500" height="500" alt="A photo of a cavernous hole with concrete walkways spiraling downward along its perimeter">
-                <p>A Haunted House</p>
-            </div>
-            <div class="attraction-card">
-                <h2>Bumper Shuttles</h2>
-                <img src="assets/images/ride_images/05_bumper_cars.png" width="500" height="500" alt="A photo of bumper cars on a bumper car track">
-                <p>Bumper cars, but in space!</p>
-            </div>
-            <div class="attraction-card">
-                <h2>Carnival Games</h2>
-                <img src="assets/images/ride_images/06_carnival_games.png" width="500" height="500" alt="A photo of carnival game booths with park visitors on the left and employees on the right">
-                <p>Toss the ring around the Saturn, arm wrestle an alien, and more!</p>
-            </div>
-            <div class="attraction-card">
-                <h2>Arcade</h2>
-                <img src="assets/images/ride_images/07_arcade.png" width="500" height="500" alt="A photo of an arcade cabinet's joystick and game button array">
-                <p>Tons of classic games! You <em>know</em> we have <em>Space Invaders</em></p>
-            </div>
-            <div class="attraction-card">
-                <h2>Concessions</h2>
-                <img src="assets/images/ride_images/08_concessions.png" width="500" height="500" alt="A photo of the front of a small concession trailer with signs for funnel cakes, corn dogs, and cold drinks">
-                <p>Dine in at Earth Burger, Cosmos Cantina, The Olive Garden, and more!</p>
-            </div>
-            <div class="attraction-card">
-                <h2>Space Elevator</h2>
-                <img src="assets/images/ride_images/09_ferris_wheel.png" width="500" height="500" alt="A photo of a ferris wheel">
-                <p>Ferris Wheel</p>
+        <!--    Put content of body in its own div so footer and header width can be targeted independent of body tag    -->
+        <div class="body-content">
+            <h1>✨ Attractions  ✨</h1>
+            <div class="attractions-gallery">
+                <div class="attraction-card">
+                    <h2>The Vomit Comet™</h2>
+                    <img src="assets/images/ride_images/01_vomit_comet.png" width="500" height="500" alt="A photo of a drop ride with flashing lights at an amusement park at night">
+                    <p>Free barf bags available!</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Centrifuge Coaster™</h2>
+                    <img src="assets/images/ride_images/02_roller_coaster.png" width="500" height="500" alt="A photo of a roller coaster">
+                    <p>Pull 6 Gs in our signature roller coaster!</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Aerotrim Device™</h2>
+                    <img src="assets/images/ride_images/03_aerotrim.png" width="500" height="500" alt="A computer rendered image of a centrifuge-like object">
+                    <p>Currently closed pending legal action</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>The Black Hole™</h2>
+                    <img src="assets/images/ride_images/04_black_hole.png" width="500" height="500" alt="A photo of a cavernous hole with concrete walkways spiraling downward along its perimeter">
+                    <p>A Haunted House</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Bumper Shuttles</h2>
+                    <img src="assets/images/ride_images/05_bumper_cars.png" width="500" height="500" alt="A photo of bumper cars on a bumper car track">
+                    <p>Bumper cars, but in space!</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Carnival Games</h2>
+                    <img src="assets/images/ride_images/06_carnival_games.png" width="500" height="500" alt="A photo of carnival game booths with park visitors on the left and employees on the right">
+                    <p>Toss the ring around the Saturn, arm wrestle an alien, and more!</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Arcade</h2>
+                    <img src="assets/images/ride_images/07_arcade.png" width="500" height="500" alt="A photo of an arcade cabinet's joystick and game button array">
+                    <p>Tons of classic games! You <em>know</em> we have <em>Space Invaders</em></p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Concessions</h2>
+                    <img src="assets/images/ride_images/08_concessions.png" width="500" height="500" alt="A photo of the front of a small concession trailer with signs for funnel cakes, corn dogs, and cold drinks">
+                    <p>Dine in at Earth Burger, Cosmos Cantina, The Olive Garden, and more!</p>
+                </div>
+                <div class="attraction-card">
+                    <h2>Space Elevator</h2>
+                    <img src="assets/images/ride_images/09_ferris_wheel.png" width="500" height="500" alt="A photo of a ferris wheel">
+                    <p>Ferris Wheel</p>
+                </div>
             </div>
         </div>
         <footer>
             <div class="footer-content">
-                <h4>Address</h4>
+                <h4><u>Address</u></h4>
                 <address>
                     123 Main Street<br/>
                     Principality of Sealand<br/>
@@ -73,7 +81,7 @@
                 </address>
             </div>
             <div class="footer-content">
-                <h4>Social Media</h4>
+                <h4><u>Social Media</u></h4>
                 <div class="social-media">
                     <a href="#">Facebook</a><br/>
                     <a href="#">Instagram</a><br/>
@@ -81,7 +89,7 @@
                 </div>
             </div>
             <div class="footer-content">
-                <h4>Contact</h4>
+                <h4><u>Contact</u></h4>
                 <div class="contact">
                     <ul>
                         <li>Phone: <a href="tel:555-555-5555">555-555-5555</a></li>
@@ -91,23 +99,14 @@
                 </div>
             </div>
             <div class="footer-content">
-                <h4>Hours</h4>
+                <h4><u>Hours</u></h4>
                 <div class="hours">
-                    <ul>
-                        <li>Monday: 12:00AM - 11:59PM</li>
-                        <li>Tuesday: 12:00AM - 11:59PM</li>
-                        <li>Wednesday: 12:00AM - 11:59PM</li>
-                        <li>Thursday: 12:00AM - 11:59PM</li>
-                        <li>Friday: 12:00AM - 11:59PM</li>
-                        <li>Saturday: 12:00AM - 11:59PM</li>
-                        <li>Sunday: 12:00AM - 11:59PM</li>
-                    </ul>
-                    More visting information on our <a href="visit.html">visit us</a> page.
+                    See park hours at our <a href="visit.html">visit us</a> page.
                 </div>
             </div>
             <div class="footer-content">
-                <div class="Copyright">
-                    <p><em>Copyright MegaCorp Capital 2024</em></p>
+                <div class="copyright">
+                    <p><em>&copy; MegaCorp Capital</em></p>
                 </div>
             </div>
         </footer>

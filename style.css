@@ -1,0 +1,103 @@
+/* Remove margin at top of hierarchy so child elements can override*/
+html {
+    height: 100%;
+    background-color: #3C4D7B;
+    margin: 0;
+}
+
+body {
+    margin: 0
+}
+
+/* Pin header to top of page(s) and add shadow */
+header {
+    background-color: #03214A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 0 0 1.5em 0 black;
+}
+
+.body-content {
+    height: 100%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding: 2em;
+    font-family: sans-serif;
+    background-color: #3C4D7B;
+    color: #E8EFFF;
+}
+
+body a {
+    color: #D3A518;
+}
+
+section {
+    background-color: #445583;
+    padding: 1em;
+    margin: .5em;
+    border: .05em dashed white;
+}
+
+.topnav li {
+    display: inline;
+    padding-right: 4em;
+}
+
+.topnav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    color: #737373;
+    text-decoration: none;
+}
+
+.topnav-text {
+    font-size: 1.5em;
+}
+
+#topnav-icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.6em;
+    fill: #FFFFFF;
+    font-size: 1em;
+}
+
+#topnav-icon:hover {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.75em;
+    fill: #737373;
+    font-size: 1em;
+}
+
+/* Have footer fixed to bottom of page(s) */
+footer {
+    background-color: #4b5e98;
+    position: relative;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.footer-content {
+    padding: 0.5em;
+    font-family: sans-serif;
+}
+
+.copyright {
+    padding-top: 31.5%;
+}
