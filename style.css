@@ -35,6 +35,7 @@ header {
 
 body a {
     color: #D3A518;
+    overflow-x: hidden;
 }
 
 section {
@@ -42,6 +43,16 @@ section {
     padding: 1em;
     margin: .5em;
     border: .05em dashed white;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-title {
+    text-align: center;
 }
 
 .topnav li {
@@ -77,6 +88,28 @@ section {
     vertical-align: -0.75em;
     fill: #737373;
     font-size: 1em;
+}
+
+.attractions-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10em;
+}
+
+.attraction-card {
+    margin: 1em;
+    height: 25em;
+    width: 30%;
+    position: relative;
+    text-align: center;
+}
+
+.attraction-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /* Have footer fixed to bottom of page(s) */
