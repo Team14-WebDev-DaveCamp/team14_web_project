@@ -35,7 +35,6 @@ header {
 
 body a {
     color: #D3A518;
-    overflow-x: hidden;
 }
 
 section {
@@ -43,16 +42,6 @@ section {
     padding: 1em;
     margin: .5em;
     border: .05em dashed white;
-}
-
-.img-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.page-title {
-    text-align: center;
 }
 
 .topnav li {
@@ -90,26 +79,31 @@ section {
     font-size: 1em;
 }
 
+/* Attractions */
 .attractions-gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.attractions-gallery-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding-bottom: 10em;
 }
 
 .attraction-card {
+    display:flex;
+    flex-direction: column;
     margin: 1em;
-    height: 25em;
     width: 30%;
-    position: relative;
+    height:100%;
     text-align: center;
+    margin: 1em;
 }
 
 .attraction-card img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
-    height: 100%;
 }
 
 /* Have footer fixed to bottom of page(s) */
